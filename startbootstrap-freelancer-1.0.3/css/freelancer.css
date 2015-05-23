@@ -180,6 +180,10 @@ section {
     background-color: #fff;
 }
 
+section.sezione-corsi{
+    left: 300px;
+}
+
 section h2 {
     margin: 0;
     font-size: 3em;
@@ -216,6 +220,12 @@ section.success a.active {
 
 landmark-sidebar{
     color: mediumvioletred;
+}
+
+corsi{
+    color: aquamarine;
+    margin-left: 100px;
+    
 }
 
 #portfolio .portfolio-item {

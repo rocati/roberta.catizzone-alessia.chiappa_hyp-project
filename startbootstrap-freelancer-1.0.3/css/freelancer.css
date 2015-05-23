@@ -367,7 +367,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #233140
+    background-color: #233140;
 }
 
 .btn-social {
@@ -472,11 +472,16 @@ footer .footer-below {
     opacity: 0;
 }
 
-/*landmark*/
-#landmark{
-background-color: aqua;
-position:relative;
-float:left;}
-
 #area{
-float:right;}
+float:right;
+background-color: transparent;}
+
+/*landmark*/
+#sidebar {
+    position:absolute;
+    top:0; bottom:0; margin-left:60px;
+    width:200px;
+    height: 300;
+    background:red;
+    
+}

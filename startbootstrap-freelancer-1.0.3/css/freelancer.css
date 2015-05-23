@@ -5,7 +5,7 @@
  */
 
 body {
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 }
 
 p {
@@ -478,7 +478,7 @@ background-color: transparent;}
 
 /*landmark*/
 #sidebar {
-    position:absolute;
+    position:relative;
     top:0; bottom:0; margin-left:60px;
     width:200px;
     height: 300;

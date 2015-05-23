@@ -85,7 +85,7 @@ header {
     text-align: center;
     color: #fff;
    /* background: #18bc9c;*/
-    background-image:url('../img/prova.jpg');
+    background-image:url('../img/home/background3.jpg');
    
 }
 
@@ -185,7 +185,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #ff600;
 }
 
 section.success a,

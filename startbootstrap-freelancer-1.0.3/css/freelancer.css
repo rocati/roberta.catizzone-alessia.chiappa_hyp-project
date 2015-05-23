@@ -475,17 +475,45 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
-
 #area{
 float:right;
-background-color: transparent;}
-
-/*landmark*/
-#sidebar {
-    position:relative;
-    top:0; bottom:0; margin-left:60px;
-    width:200px;
-    height: 300;
-    background:red;
-    
 }
+
+/*sidebar*/
+.side-nav { 
+   position: fixed; 
+    top:0px; 
+    left: 225px; 
+    width: 250px;
+    height: 700px;
+    margin-left: -200px; 
+      border: none; 
+      border-radius: 10px; 
+     background-color: #ff6000; 
+       overflow-y: auto; 
+       overflow-x: hidden; 
+        padding-top: 150px; 
+   } 
+.side-nav>li>a { 
+       width: 225px; 
+    } 
+     .side-nav li a:hover, 
+   .side-nav li a:focus { 
+        outline: none; 
+      background-color: #000 !important; 
+    } 
+ }  
+ 
+.side-nav ul li { 
+     display:list-item; 
+} 
+ 
+ .side-nav>li>ul>li>a { 
+    display: block; 
+     padding: 10px 15px 10px 38px; 
+     text-decoration: none; 
+     color: #999; 
+ } 
+ .side-nav>li>ul>li>a:hover { 
+     color: #fff; 
+} 

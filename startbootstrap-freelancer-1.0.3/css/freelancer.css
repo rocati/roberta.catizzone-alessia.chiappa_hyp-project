@@ -22,7 +22,8 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #fff
+    font-size: 20px;
 }
 
 h1,
@@ -176,6 +177,7 @@ header .intro-text .skills {
 
 section {
     padding: 100px 0;
+    background-color: #fff;
 }
 
 section h2 {

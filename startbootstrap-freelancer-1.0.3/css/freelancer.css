@@ -185,6 +185,11 @@ section h2 {
     font-size: 3em;
 }
 
+section h2.page-title {
+    margin: 50px;
+    font-size: 3em;
+}
+
 section.success {
     color: #fff;
     background: #ff600;

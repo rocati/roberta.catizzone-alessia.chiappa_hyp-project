@@ -28,6 +28,7 @@ nav,
 section,
 summary {
   display: block;
+    position: relative;
 }
 audio,
 canvas,

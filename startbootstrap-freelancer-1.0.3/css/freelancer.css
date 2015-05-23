@@ -356,6 +356,9 @@ footer h3 {
 footer .footer-above {
     padding-top: 50px;
     background-color: #233140;
+    position:relative;
+    clear:both;
+    
 }
 
 footer .footer-col {
@@ -468,6 +471,12 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
+
+/*landmark*/
 #landmark{
-    background-color: aqua;
-}
+background-color: aqua;
+position:relative;
+float:left;}
+
+#area{
+float:right;}
